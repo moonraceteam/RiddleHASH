@@ -352,8 +352,18 @@ img {
     color: #dfdfdf;
     text-align: right;
 }
-.mark{
+.hide{
+    display: none;
+}
+.mark, .mark-small{
     color: rgb(221, 228, 97);
+}
+.mark-small{
+    font-size: 0.8em;
+}
+.marklight{
+    color: rgb(242, 255, 0);
+    font-size: 1.4em;
 }
 
 .modal-body, .modal-footer {
@@ -395,13 +405,16 @@ img {
 .input-value{    
     color: rgb(238, 255, 0);
 }
-.dapp-btn{
+.dapp-btn, .copy-btn{
     padding: 8px;
     margin: 6px;
     font-size: 0.7em;
     font-weight: bold;
     border-radius: 10px;
     background-color: rgb(20, 63, 121);
+}
+.copy-btn{
+    width: 40px;
 }
 .modal-default-button {
     float: right;
@@ -444,3 +457,22 @@ img {
     display: inline-block;
     height: 100%;
   }
+/* unvisited link */
+a:link {
+    color: rgb(221, 228, 97);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(221, 228, 97);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(221, 228, 97);
+}
+
+/* selected link */
+a:active {
+    color: rgb(221, 228, 97);
+}
