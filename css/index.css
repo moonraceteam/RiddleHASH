@@ -293,17 +293,22 @@ img {
     display: table-cell;
     vertical-align: middle;
 }
-.modal-container {
+.modal-container, .proof {
     width: 300px;
     /*height: 400px;*/
     margin: 0px auto;
     padding: 10px 20px;
     /* background-color: rgb(0, 23, 53); */
-    background-image: linear-gradient(to left top, #001735, #002442, #02314f, #063e5b, #0f4c67, #1e4964, #284760, #2f445c, #303144, #28212c, #1a1418, #000000);
+    /* background-image: linear-gradient(to left top, #001735, #002442, #02314f, #063e5b, #0f4c67, #1e4964, #284760, #2f445c, #303144, #28212c, #1a1418, #000000); */
+    background-image: linear-gradient(to right bottom, #032330, #042431, #052533, #062534, #072635, #062c3c, #033344, #003a4b, #004958, #005863, #00686b, #097871);
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
     transition: all 0.3s ease;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+.proof {
+    background-image: linear-gradient(to right bottom, #012a3b, #022b3c, #042c3e, #052d3f, #072e41, #053346, #03394b, #003e50, #004958, #00545e, #006063, #0d6b65);
 }
 
 .buzy {
@@ -363,7 +368,7 @@ img {
 }
 .marklight{
     color: rgb(242, 255, 0);
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 .modal-body, .modal-footer {
