@@ -355,7 +355,7 @@ img {
     display: table-cell;
     vertical-align: middle;
 }
-.modal-container, .proof {
+.modal-container, .proof .webconnection {
     width: 300px;
     /*height: 400px;*/
     margin: 0px auto;
@@ -371,6 +371,10 @@ img {
 
 .proof {
     background-image: linear-gradient(to right bottom, #012a3b, #022b3c, #042c3e, #052d3f, #072e41, #053346, #03394b, #003e50, #004958, #00545e, #006063, #0d6b65);
+}
+
+.webconnection{
+    background-image: linear-gradient(to left top, #b9ac6f, #889f6a, #5c8f6d, #357c70, #19686f, #11616f, #11596e, #18516b, #165572, #145879, #135c80, #125f87);
 }
 
 .buzy {
